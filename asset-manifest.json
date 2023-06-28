@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/IntelliText/static/css/main.e352ff57.css",
+    "main.js": "/IntelliText/static/js/main.1613bdca.js",
+    "static/js/787.a8cad2a5.chunk.js": "/IntelliText/static/js/787.a8cad2a5.chunk.js",
+    "index.html": "/IntelliText/index.html",
+    "main.e352ff57.css.map": "/IntelliText/static/css/main.e352ff57.css.map",
+    "main.1613bdca.js.map": "/IntelliText/static/js/main.1613bdca.js.map",
+    "787.a8cad2a5.chunk.js.map": "/IntelliText/static/js/787.a8cad2a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e352ff57.css",
+    "static/js/main.1613bdca.js"
+  ]
+}
