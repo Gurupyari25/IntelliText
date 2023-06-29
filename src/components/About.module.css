@@ -1,0 +1,73 @@
+.container {
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.container h1 {
+  font-size: 1.96rem;
+  text-align: center;
+  color: var(--heading-clr);
+  text-shadow: 1px 1px 2px var(--heading-shadow);
+  font-family: "Poltawski Nowy", serif;
+}
+
+.innerContainer {
+  width: 80%;
+  height: 450px;
+  overflow: auto;
+}
+
+.innerContainer::-webkit-scrollbar {
+  width: 6px;
+}
+
+.innerContainer::-webkit-scrollbar-track {
+  background-color: var(--scroll-trackClr);
+}
+
+.innerContainer::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px var(--scroll-shadow);
+  background-color: var(--scroll-thumbClr);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 991px) {
+  .container h1 {
+    font-size: 1.41rem;
+  }
+
+  .innerContainer {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    gap: 25px;
+  }
+
+  .container h1 {
+    font-size: 1.1rem;
+  }
+
+  .innerContainer {
+    height: 360px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .container h1 {
+    font-size: 0.9rem;
+  }
+
+  .innerContainer {
+    height: 380px;
+    width: 82%;
+  }
+}

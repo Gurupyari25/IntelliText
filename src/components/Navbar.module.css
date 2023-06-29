@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oleo+Script&display=swap");
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  flex-direction: row;
+  gap: 25px;
+  background-color: var(--nav-bgClr);
+  height: 50px;
+  padding: 0 30px;
+  margin-bottom: 55px;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.navbar h2 {
+  font-family: "Oleo Script", cursive;
+  color: var(--nav-txtClr);
+  text-shadow: 1px 1px 2px var(--nav-logoShadow);
+}
+
+ul {
+  flex-direction: row;
+  gap: 25px;
+  margin: 0 20px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  color: var(--nav-txtClr);
+}
+
+ul li a:hover {
+  color: var(--nav-linkHoverClr);
+}
+
+.btn {
+  position: absolute;
+  right: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: var(--mode-btnBgClr);
+  color: var(--mode-btnTxtClr);
+  font-size: 1.23rem;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar {
+    margin-bottom: 30px;
+  }
+
+  .navbar h2 {
+    font-size: 1.4rem;
+  }
+  ul li a {
+    font-size: 0.9rem;
+    letter-spacing: 0.3px;
+  }
+
+  .btn {
+    font-size: 1.15rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    margin-bottom: 55px;
+  }
+
+  .navbar h2 {
+    font-size: 1.1rem;
+    text-shadow: 1px 1px 3px var(--nav-logoShadow);
+  }
+  ul li a {
+    font-size: 0.78rem;
+    letter-spacing: 0.1px;
+  }
+
+  .btn {
+    font-size: 0.95rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .navbar {
+    margin-bottom: 40px;
+  }
+  .navbar h2 {
+    font-size: 1.03rem;
+  }
+  ul li a {
+    font-size: 0.65rem;
+  }
+
+  .btn {
+    right: 30px;
+    font-size: 0.84rem;
+  }
+}

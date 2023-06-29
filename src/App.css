@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.light-theme {
+  /* body */
+  --body-bgClr: #f9f1e8;
+
+  /* navbar */
+  --nav-bgClr: #f3dbcd;
+  --nav-txtClr: #685d5a;
+  --nav-logoShadow: #746662;
+  --nav-linkHoverClr: #5a4f4c;
+  --mode-btnBgClr: #f3dbcd;
+  --mode-btnTxtClr: #685d5a;
+
+  /* heading */
+  --heading-clr: #223d3c;
+  --heading-shadow: #323632a6;
+
+  /* textArea */
+  --txtArea-bgClr: #f5e6dd;
+  --txtArea-borderClr: #efd3c3;
+  --txtArea-shadow: rgba(0, 0, 0, 0.1);
+  --txtArea-txtClr: #93766e;
+
+  /* scrollBar */
+  --scroll-trackClr: #f7e5da;
+  --scroll-thumbClr: #f3dbcd;
+  --scroll-shadow: #d1b3a2;
+
+  /* textProperties */
+  --prop-clr: #223d3c;
+  --counts-clr: #3a6261;
+
+  /* utilButtons */
+  --btnData-bgClr: #93766e;
+  --btnData-txtClr: #f9f1e8;
+  --btn-bgClr: #223d3c;
+  --btn-shadow: #162827;
+  --btn-txtClr: #e2efe3;
+  --btn-hoverClr: #1d3433;
+  --btn-disableClr: #384c4c;
+  --dropBox-shadow: rgb(120 113 109 / 64%);
+  --dropBtn-bgClr: #2b4a49;
+  --dropBtn-hoverClr: #25403f;
+  --dropBtn-txtClr: #e2efe3;
+  --dropBtn-sepClr: #3a5c5b;
+
+  /* Accordion */
+  --acc-hoverBgClr: #edd7c9;
+  --accBtn-txtClr: #4d624f;
+  --accBtn-btmClr: #e5d5cb;
+}
+
+.dark-theme {
+  /* body */
+  --body-bgClr: #0d2423;
+
+  /* navbar */
+  --nav-bgClr: #0a1e1d;
+  --nav-txtClr: #af8c53;
+  --nav-logoShadow: #3c2d28;
+  --nav-linkHoverClr: #bb9963;
+  --mode-btnBgClr: #0a1e1d;
+  --mode-btnTxtClr: #af8c53;
+
+  /* heading */
+  --heading-clr: #bb7d66;
+  --heading-shadow: #030c0c;
+
+  /* textArea */
+  --txtArea-bgClr: #122c2b;
+  --txtArea-borderClr: #0a1e1d;
+  --txtArea-shadow: rgba(0, 0, 0, 0.1);
+  --txtArea-txtClr: #879190;
+
+  /* scrollBar */
+  --scroll-trackClr: #143231;
+  --scroll-thumbClr: #0b201f;
+  --scroll-shadow: #091a19;
+
+  /* textProperties */
+  --prop-clr: #9d786b;
+  --counts-clr: #9d8179;
+
+  /* utilButtons */
+  --btnData-bgClr: #af8c53;
+  --btnData-txtClr: #0a1e1d;
+  --btn-bgClr: #0c2221;
+  --btn-shadow: #061413;
+  --btn-txtClr: #9baba4;
+  --btn-hoverClr: #0b201f;
+  --btn-disableClr: #162e2d;
+  --dropBox-shadow: rgb(10 30 29);
+  --dropBtn-bgClr: #122e2d;
+  --dropBtn-hoverClr: #173837;
+  --dropBtn-txtClr: #8f9f98;
+  --dropBtn-sepClr: #0d2423;
+
+  /* Accordion */
+  --acc-hoverBgClr: #0b201f;
+  --accBtn-txtClr: #877772;
+  --accBtn-btmClr: #132e2d;
+}
+body {
+  background-color: var(--body-bgClr);
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
