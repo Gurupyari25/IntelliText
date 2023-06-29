@@ -8,10 +8,10 @@ import { BrowserRouter as BsrRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <BsrRouter>
+      <BsrRouter basename="/IntelliText">
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<TextFunctionForm />} />
+          <Route exact path="/IntelliText" element={<TextFunctionForm />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </BsrRouter>
