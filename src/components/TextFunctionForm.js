@@ -124,6 +124,7 @@ export default function TextFunctionForm() {
               <button
                 className={`${styles.btn}`}
                 onClick={copyTxt}
+                disabled={text.length === 0}
                 data-name="Copy Text"
               >
                 <i className="fa-regular fa-copy"></i>
