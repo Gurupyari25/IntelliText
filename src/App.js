@@ -8,7 +8,7 @@ import { BrowserRouter as BsrRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <BsrRouter>
+      <BsrRouter basename="/IntelliText">
         <Navbar />
         <Routes>
           <Route exact path="/" element={<TextFunctionForm />} />
